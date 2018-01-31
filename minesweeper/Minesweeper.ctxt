@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=seite\ minen\ leben
+comment0.target=Minesweeper(int,\ int,\ int)
+comment0.text=\n\ Mit\ diesem\ Konstuktor\ werden\ die\ Laenge\ der\ Seite,\ \n\ die\ Anzahl\ der\ Minen\ und\ die\ Anzahl\ der\ Leben\ bestimmt.\n\ \n\ Laenge\ der\ Seite\:\ Zahl\ >\=\ 5\ und\ <\=\ 10\ \n\ Anzahl\ Minen\:\ Zahl\ >\=\ 1\ und\ <\=\ 24\ bis\ <\=\ 99\n\ Empf.\ des\ Autors\ -->\ max.\ 80%\ der\ Anzahl\ Felder\n\ -->\ 5\ Felder\ \=\ 20\ Minen,\ 6\ \=\ 28,\ 7\ \=\ 39,\ 8\ \=\ 51,\ 9\ \=\ 64,\ 10\ \=\ 80\n\ Anzahl\ der\ Leben\:\ Zahl\ >\=\ 1\n
+comment1.params=
+comment1.target=void\ neuesSpiel()
+comment1.text=\n\ Diese\ Methode\ startet\ automatisch\ beim\ erstellen\ \n\ eines\ Objekts\ der\ Klasse\ Minesweeper.\n\ Hier\ wird\ ueberprueft,\ ob\ die\ Seitenlaenge\ \n\ zwischen\ 5\ und\ 10\ Feldern\ und\ die\ Minen\n\ zwischen\ 1\ und\ 24\ bzw.\ 99\ liegt.\n
+comment2.params=zeile\ spalte\ fahne
+comment2.target=void\ klick(int,\ int,\ boolean)
+comment2.text=\n\ Mit\ dieser\ Methode\ klickt\ der\ Benutzer.\n\ \n\ Waehle\ die\ gewuenschte\ Zeile\ (Zahl\ zwischen\ 1\ und\ 5\ bzw.\ 10)\n\ Waehle\ die\ gewuenschte\ Spalte\ (Zahl\ zwischen\ 1\ und\ 5\ bzw.\ 10)\n\ Fahne\ oder\ nicht?\ (Fahne\ ja\ \=\ true,\ Fahne\ nein\ \=\ false)\n
+comment3.params=
+comment3.target=void\ istsFertig()
+comment3.text=\n\ Diese\ Methode\ ueberprueft,\ ob\ das\ Spiel\ fertig\ ist.\n\ Sie\ wird\ bei\ jedem\ "Klick"\ aufgerufen.\n
+numComments=4

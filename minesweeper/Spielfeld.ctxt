@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=seite\ minen
+comment0.target=Spielfeld(int,\ int)
+comment0.text=\n\ Im\ Konstruktor\ werden\ die\ Zellen\ je\ nach\ Laenge\ der\ Spielfeldseite\ \n\ generiert\ und\ ruft\ die\ nachfolgenden\ Methoden\ auf.\n\ \n\ Minen\:\ werden\ durch\ die\ Eingabe\ des\ Users\ uebernommen\n\ Seitenlaenge\:\ wird\ durch\ die\ Eingabe\ des\ Users\ uebernommen\n
+comment1.params=index
+comment1.target=Zelle\ zugriffZelle(int)
+comment1.text=\n\ Diese\ Methode\ wird\ gebraucht,\ wenn\ die\ Klasse\ \n\ Minesweeper\ auf\ einzelne\ Zellen\ zugreifen\ will.\n
+comment2.params=
+comment2.target=void\ platziereMinen()
+comment2.text=\n\ Plaziert\ die\ vorgegebene\ Anzahl\ Minen\ zufaellig\ auf\ dem\ Spielfeld.\n\ Wird\ nur\ einmalig\ beim\ Erstellen\ des\ Spielfeldes\ aufgerufen.\n
+comment3.params=
+comment3.target=void\ setzeNachbarn()
+comment3.text=\n\ Schaut\ aufgrund\ der\ gesetzten\ Bomben\ (bei\ platziereMinen())\ \n\ ob\ und\ wieviele\ Nachbarfelder\ mit\ Bombe\ vorhanden\ sind.\n\ Dazu\ wird\ jede\ Zelle\ betrachtet\ und\ deren\ Anzahl\ \n\ Nachbarn\ mit\ Bombe\ gez\u2030hlt.\n\ Wird\ nur\ einmalig\ beim\ Erstellen\ des\ Spielfeldes\ aufgerufen.\n
+comment4.params=
+comment4.target=void\ zeichneSpielfeld()
+comment4.text=\n\ In\ Konsole\ dargestelltes\ Spielfeld\ wird\ gezeichnet\ \n\ oder\ aktualisiert\ (bei\ klick\ auf\ Zelle\ ohne\ Bombe,\ \n\ bei\ klick\ auf\ Zelle\ mit\ Bombe\ aber\ noch\ gen\u00FCgend\ Leben,\ \n\ bei\ klick\ auf\ Zelle\ mit\ gesetzer\ Fahne).\n
+numComments=5
