@@ -4,17 +4,17 @@ PURPOSE OF PROJECT:		Spiel
 VERSION or DATE:		02.01.2010
 HOW TO START THIS PROJECT:	Um das Spiel zu starten erstelle ein 
 				Objekt der Klasse Minesweeper...
-AUTHORS:			Lukas Buchter
+AUTHORS:			Lukas
 USER INSTRUCTIONS:
 
 ------------------------------------------------------------------------
 /**
  * Willkommen zu Lucky's Minesweeper!!
  *
- * Minesweeper (englisch mine sweeper: „Minenräumer“) ist ein simples 
+ * Minesweeper (englisch mine sweeper: â€MinenrÃ¤umerâ€œ) ist ein simples 
  * Computerspiel, bei dem der Spieler durch logisches Denken heraus- 
  * finden muss, hinter welchen Feldern Minen versteckt sind. Das Ziel 
- * ist, möglichst alle Felder aufzudecken, hinter welchen keine
+ * ist, mÃ¶glichst alle Felder aufzudecken, hinter welchen keine
  * Minen verborgen sind.
  * 
  * @bluej-version 3.0.0
@@ -23,46 +23,46 @@ USER INSTRUCTIONS:
  */
 ------------------------------------------------------------------------
 
-Was ich noch gerne hinzugefügt hätte...
-||: Folgende Änderungen konnte ich durch zu wenig Zeit/Wissen nicht 
+Was ich noch gerne hinzugefÃ¼gt hÃ¤tte...
+||: Folgende Ã„nderungen konnte ich durch zu wenig Zeit/Wissen nicht 
 implementieren :||
 
 --> Anstatt die Zeilen und die Spalten durch Zahlen zu kennzeichnen, 
-hätte ich gerne die Spalten mit Buchstaben beschriftet. Doch es war mir 
-nicht möglich einen String in einen int umzuwandeln und gleichzeitig 
-noch zu erörtern, ob es ein Gross- oder Kleinbuchstabe ist (und 
+hÃ¤tte ich gerne die Spalten mit Buchstaben beschriftet. Doch es war mir 
+nicht mÃ¶glich einen String in einen int umzuwandeln und gleichzeitig 
+noch zu erÃ¶rtern, ob es ein Gross- oder Kleinbuchstabe ist (und 
 dementsprechend anzupassen), ob der User die letzte Spalte nicht 
-überschritten hat oder was passiert, wenn er kein String eingibt. Eine 
-Eingabe der Koordinaten mit Zahlen und Buchstaben hätte einen Klick noch 
-etwas einfach gemacht und allfällige Verwirrungen mit Zeilen und Spalten 
+Ã¼berschritten hat oder was passiert, wenn er kein String eingibt. Eine 
+Eingabe der Koordinaten mit Zahlen und Buchstaben hÃ¤tte einen Klick noch 
+etwas einfach gemacht und allfÃ¤llige Verwirrungen mit Zeilen und Spalten 
 behoben.
 
---> Wenn der User die Seitenlänge und/oder die Anzahl Minen falsch
-eingibt, erhält er eine Fehlermeldung die zwar aussagt, dass die 
-Eingabe falsch ist, aber nicht welche. Gerne hätte ich die Spielfeld-
-grösse und Anzahl Minen getrennt analysiert, um dem User genau mitteilen
-zu könne, was er falsch gemacht hat.
+--> Wenn der User die SeitenlÃ¤nge und/oder die Anzahl Minen falsch
+eingibt, erhÃ¤lt er eine Fehlermeldung die zwar aussagt, dass die 
+Eingabe falsch ist, aber nicht welche. Gerne hÃ¤tte ich die Spielfeld-
+grÃ¶sse und Anzahl Minen getrennt analysiert, um dem User genau mitteilen
+zu kÃ¶nne, was er falsch gemacht hat.
 
---> Zur besseren usability wären Schwierigkeitsstufen hilfreich gewesen.
-Also das der User wählen kann zwischen leicht, mittel und schwierig, 
+--> Zur besseren usability wÃ¤ren Schwierigkeitsstufen hilfreich gewesen.
+Also das der User wÃ¤hlen kann zwischen leicht, mittel und schwierig, 
 wobei leicht wenig Minen bedeutet (z.B. 10%), mittel etwas mehr (30%) 
-und schwirig eine erhöhte Anzahl (50%).
+und schwirig eine erhÃ¶hte Anzahl (50%).
 
 --> Beim Windows-Minesweeper werden beim ersten Klick ins Feld einige
 angrenzenden Felder aufgedeckt, die keine Bombe als unmittelbaren 
-Nachbarn haben. Diese Funktion zu programmieren übersteigt meine 
-Möglichkeiten. Leider muss nun jedes einzelne Feld einmal geklickt 
+Nachbarn haben. Diese Funktion zu programmieren Ã¼bersteigt meine 
+MÃ¶glichkeiten. Leider muss nun jedes einzelne Feld einmal geklickt 
 werden, auch wenn man schon alle Bomben gekennzeichnet hat. Das 
 geht klar auf kosten des Fun-Faktors.
 
---> Mir fiel als Möglichkeit zum Klicken keine andere als das
-Koordinatensystem ein. Gerne hätte ich hier noch weitere/benutzer-
+--> Mir fiel als MÃ¶glichkeit zum Klicken keine andere als das
+Koordinatensystem ein. Gerne hÃ¤tte ich hier noch weitere/benutzer-
 freundlichere gesucht. Denn jede Eingabe die der User mehr machen
 muss, senkt den Spielspass.
 
---> Die Übersichtlichkeit geht bei der Darstellung des Spielfelds
+--> Die Ãœbersichtlichkeit geht bei der Darstellung des Spielfelds
 etwas verloren. Der User muss sich bei jedem Klick neu orientieren und
-entspechende Zeile und Spalte suchen. Auch das ist eine Einschränkung
+entspechende Zeile und Spalte suchen. Auch das ist eine EinschrÃ¤nkung
 des Fun-Faktors.
 
 --> Nach dem Game Over muss der User ein komplett neues Spiel starten,
@@ -73,51 +73,51 @@ er kann nicht im selben Objekt weiterspielen.
 Das passiert, wenn jemand spielt...
 ||: Ablauf eines optimalen Spielverlaufs :||
 
-°° User:  öffnet die Datei "package.bluej" im Minesweeper Ordner
-** BlueJ: Zeigt die Klassenübersicht mit der Hauptklasse "Minesweeper"
+Â°Â° User:  Ã¶ffnet die Datei "package.bluej" im Minesweeper Ordner
+** BlueJ: Zeigt die KlassenÃ¼bersicht mit der Hauptklasse "Minesweeper"
 	  und den Hilfsklassen "Spielfeld" und "Zelle"
-°° User:  rechtsklickt auf die Klasse "Minesweeper" und wählt "public 
+Â°Â° User:  rechtsklickt auf die Klasse "Minesweeper" und wÃ¤hlt "public 
 	  Minesweeper(int seite, int minen, int leben)"
-** BlueJ: öffnet ein Dialogfeld und fordert zur Eingabe auf
-°° User:  gibt die Länge einer Seite, Anzahl Minen und Anzahl Leben ein, 
+** BlueJ: Ã¶ffnet ein Dialogfeld und fordert zur Eingabe auf
+Â°Â° User:  gibt die LÃ¤nge einer Seite, Anzahl Minen und Anzahl Leben ein, 
 	  klickt dann OK
-** BlueJ: generiert ein Objekt der Klasse "Minesweeper" und öffnet 
+** BlueJ: generiert ein Objekt der Klasse "Minesweeper" und Ã¶ffnet 
 	  gleichzeitig die Konsole. Darin wird ein Willkommens-Text und
  	  das Spielfeld angezeigt.
-°° User:  rechtsklickt auf das erstellte Objekt und wählt "public void 
+Â°Â° User:  rechtsklickt auf das erstellte Objekt und wÃ¤hlt "public void 
 	  klick(int zeile, int spalte, boolean fahne)". User gibt Zeile
 	  (Zahl), Spalte (Zahl) und Fahne ja/nein (true/false) ein und 
-	  bestätigt mit OK
+	  bestÃ¤tigt mit OK
 ** BlueJ: stellt das Spielfeld mit geklickter Zelle als " " (Leerschlag)
 	  oder Zahl dar
-°° User:  wiederholt diesen Vorgang (klicken) so lange, bis alle Zellen
+Â°Â° User:  wiederholt diesen Vorgang (klicken) so lange, bis alle Zellen
 	  ohne Bombe aufgedeckt und Zellen mit Bombe mit einer 
 	  Fahne gekennzeichnet sind
 ** BlueJ: zeigt Meldung, dass User das Spiel gewonnen hat (dargestellt 
 	  durch "Juheee!"
-°° User:  freut sich...
+Â°Â° User:  freut sich...
 
 ------------------------------------------------------------------------
 
 Das passiert, wenn jemand etwas macht, das er nicht sollte...
-||: Mögliche "Fehler", die der User machen kann :||
+||: MÃ¶gliche "Fehler", die der User machen kann :||
 
---> User wählt eine zu kurze (<5) oder zu lange (>10) Seite des 
+--> User wÃ¤hlt eine zu kurze (<5) oder zu lange (>10) Seite des 
     Spielfelds 
     @ es erscheint eine Fehlermeldung in der Konsole
 
---> User wählt eine zu kleine (0) oder zu grosse (> als seite*seite-1)
+--> User wÃ¤hlt eine zu kleine (0) oder zu grosse (> als seite*seite-1)
     Anzahl Minen
     @ es erscheint eine Fehlermeldung in der Konsole
 
 --> User gibt keinen Wert ein
-    @ nicht möglich, BlueJ verlangt einen Wert
+    @ nicht mÃ¶glich, BlueJ verlangt einen Wert
 
---> User wählt eine Zelle ausserhalb des Spielfelds
+--> User wÃ¤hlt eine Zelle ausserhalb des Spielfelds
     @ es erscheint eine Fehlermeldung in der Konsole
 
---> User gibt ein ungültiges Zeichen ein (z.B. Buchstabe statt Zahl)
-    @ nicht möglich, der Typ der Eingabe ist definiert
+--> User gibt ein ungÃ¼ltiges Zeichen ein (z.B. Buchstabe statt Zahl)
+    @ nicht mÃ¶glich, der Typ der Eingabe ist definiert
 
 --> User klickt auf ein Feld mit Bombe
     @ dem User wird ein Leben abgezogen und er wird darauf hingewiesen,
@@ -143,8 +143,8 @@ Was ziemlich tricky war...
 --> verteilen der Minen
     Obwohl es im nachhinein einfach aussieht, brauchte es einige Fehl-
     versuche, bis es klappte. Es galt zu verhindern, dass sich alle
-    Bomben in der gleichen Zelle sammeln, was theoretisch möglich
-    wäre.
+    Bomben in der gleichen Zelle sammeln, was theoretisch mÃ¶glich
+    wÃ¤re.
 
 	01. private void platziereMinen() {
 	02. Random r = new Random();
@@ -158,24 +158,24 @@ Was ziemlich tricky war...
 	02. es wird ein neuer random r generiert (Klasse Random wurde 
 	    zu Beginn importiert)
 	03. While-Schleife mit Abbruch-Bedingung !=0. D.h. die Schleife
-	    setzt bei jedem Durchgang eine Mine und läuft so lange bis
-	    keine Minen mehr vorhanden sind, die zu setzen wären.
-	04. es wird eine zufällige Zelle ausgewählt, abhängig von der 
-	    Länge des Arrays
-	05. es wird überprüft, ob die Zelle schon eine Bombe hat
+	    setzt bei jedem Durchgang eine Mine und lÃ¤uft so lange bis
+	    keine Minen mehr vorhanden sind, die zu setzen wÃ¤ren.
+	04. es wird eine zufÃ¤llige Zelle ausgewÃ¤hlt, abhÃ¤ngig von der 
+	    LÃ¤nge des Arrays
+	05. es wird Ã¼berprÃ¼ft, ob die Zelle schon eine Bombe hat
 	06. hat sie keine, wird eine Bombe gesetzt
-	07. und von den übrigen eine abgezogen
+	07. und von den Ã¼brigen eine abgezogen
 
---> erörtern der Nachbar-Minen
-    es gibt zwei Möglichkeiten die Anzahl Minen in einer Zelle auszu-
-    geben: entweder man durchläuft jedes Feld des Arrays und wenn es
-    keine Mine hat zählt man ob und wie viele Nachbarfelder Minen 
-    haben oder man durchläuft jedes Feld und wenn es eine Mine hat,
-    erhöht man jedes Nachbarfeld um 1. Ich entschied mich für die 
-    zweite Möglichkeit...
+--> erÃ¶rtern der Nachbar-Minen
+    es gibt zwei MÃ¶glichkeiten die Anzahl Minen in einer Zelle auszu-
+    geben: entweder man durchlÃ¤uft jedes Feld des Arrays und wenn es
+    keine Mine hat zÃ¤hlt man ob und wie viele Nachbarfelder Minen 
+    haben oder man durchlÃ¤uft jedes Feld und wenn es eine Mine hat,
+    erhÃ¶ht man jedes Nachbarfeld um 1. Ich entschied mich fÃ¼r die 
+    zweite MÃ¶glichkeit...
     Hier in erster Linie entscheidend herauszufinden, wie ich auf die     
     umliegenden Nachbar-Zellen zugreifen konnte. Vor allem diagonal und 
-    vertikal stellte eine Herausforderung dar. Die Lösung ergab sich 
+    vertikal stellte eine Herausforderung dar. Die LÃ¶sung ergab sich 
     mir, als ich mich darauf konzentrierte, dass es sich hier 
     eigentlich nicht um eine "Tabelle", sondern nur um eine 
     Zeile handelt.
@@ -187,18 +187,18 @@ Was ziemlich tricky war...
     | | | | | |
 
     In der Tabellenartigen Darstellung ist es mit (vielleicht) 
-    überwindbaren Hürden verbunden von a auf b zuzugreifen. 
+    Ã¼berwindbaren HÃ¼rden verbunden von a auf b zuzugreifen. 
 
     | | | | | | | | | | | |b| | | | | |a| | | | | | | |
 
     Wird hingegen der Array als einzelne Zeile gesehen, bietet sich 
-    folgende Lösung an: gehe von der aktuellen Position (a) sechs
-    Felder zurück (auf b) und erhöhe diesen Wert um 1.
-    Da nun der User zwischen mehreren Seitenlängen wählen kann, 
-    verändern sich auch je nach dem der Wert zwischen a und b. 
-    Deshalb greife ich auf die Eingabe des Users zurück. Zieht man 
-    von der momentanen Position eine Seitenlänge ab, befindet man 
-    sich genau ein Feld über der aktuellen Position. Danach wird 
+    folgende LÃ¶sung an: gehe von der aktuellen Position (a) sechs
+    Felder zurÃ¼ck (auf b) und erhÃ¶he diesen Wert um 1.
+    Da nun der User zwischen mehreren SeitenlÃ¤ngen wÃ¤hlen kann, 
+    verÃ¤ndern sich auch je nach dem der Wert zwischen a und b. 
+    Deshalb greife ich auf die Eingabe des Users zurÃ¼ck. Zieht man 
+    von der momentanen Position eine SeitenlÃ¤nge ab, befindet man 
+    sich genau ein Feld Ã¼ber der aktuellen Position. Danach wird 
     noch eine Zelle minus gerechnet und b ist gefunden.
     
     |a|b|c|
@@ -225,13 +225,13 @@ Was ziemlich tricky war...
     | | | | | |
 
     Angenommen i (aktuelle Position) befindet sich bei a und ist
-    eine Mine, würde b natürlich automatisch erhöht werden, denn 
-    im Array ohne Unterbrüche ist b eine Nachbarzelle von a: 
+    eine Mine, wÃ¼rde b natÃ¼rlich automatisch erhÃ¶ht werden, denn 
+    im Array ohne UnterbrÃ¼che ist b eine Nachbarzelle von a: 
 
     | | | | | | | | | | | | | | |b|a| | | | | | | | | |
 
     deshalb braucht es eine weitere Bedingung, um eine Nachbar-
-    zelle zu erhöhen.
+    zelle zu erhÃ¶hen.
 
 	01. private void setzeNachbarn(){
 	02. for (int i = 0; i < spielFeld.length; i++){
@@ -255,52 +255,52 @@ Was ziemlich tricky war...
 
 	01. interne Methode setzeNachbarn wird aufgerufen
 	02. eine for-Schleife fragt jede Zelle des Spielfeldes ab
-	03. und führt folgende Anweisungen aus, wenn die Zelle eine
-	    Mine hat (wenn nicht springt sie weiter zur nächsten)
+	03. und fÃ¼hrt folgende Anweisungen aus, wenn die Zelle eine
+	    Mine hat (wenn nicht springt sie weiter zur nÃ¤chsten)
 	04. Feld links oben:
-	    wenn aktuelle Position minus eine Seitenlänge minus eine 
-	    Zelle grösser gleich 0 ist (trifft zu solange i innerhalb 
+	    wenn aktuelle Position minus eine SeitenlÃ¤nge minus eine 
+	    Zelle grÃ¶sser gleich 0 ist (trifft zu solange i innerhalb 
 	    des Spielfelds ist) und aktuelle Position geteilt durch die 
-	    Seitenlänge nicht einen Rest von Null ergibt (das wiederum 
+	    SeitenlÃ¤nge nicht einen Rest von Null ergibt (das wiederum 
 	    trifft zu wenn sich i nicht links am Rand des Spielfelds 
 	    befindet*), 
-	05. dann führe die methode erhoeheNachbarn an der Position 
+	05. dann fÃ¼hre die methode erhoeheNachbarn an der Position 
 	    i-seite-1 aus
 	06. Feld oben:
-	    wenn aktuelle Position minus eine Seitenlänge grösser oder 
+	    wenn aktuelle Position minus eine SeitenlÃ¤nge grÃ¶sser oder 
 	    gleich 0 ist
-	07. führe diese Methode aus
+	07. fÃ¼hre diese Methode aus
 	08. Feld rechts oben:
 	    zweiter Teil der Bedingung: ein Feld weiter als aktuelle 
-	    Position geteilt durch Seitenlänge soll keinen Rest 0 
+	    Position geteilt durch SeitenlÃ¤nge soll keinen Rest 0 
 	    ergeben (trifft zu wenn sich i nicht rechts am Rand des 
 	    Spielfelds befindet**)
-	09. führe diese Methode aus
+	09. fÃ¼hre diese Methode aus
 	10. Feld links: siehe oben
-	11. führe diese Methode aus
+	11. fÃ¼hre diese Methode aus
 	12. Feld rechts: siehe oben
-	    diese Bedingung wird erfüllt, solange sich die aktuelle 
+	    diese Bedingung wird erfÃ¼llt, solange sich die aktuelle 
 	    Position noch im Spielfeld befindet
-	13. führe diese Methode aus
+	13. fÃ¼hre diese Methode aus
 	14. Feld links unten: siehe oben
-	15. führe diese Methode aus
+	15. fÃ¼hre diese Methode aus
 	16. Feld unten: siehe oben
-	17. führe diese Methode aus
+	17. fÃ¼hre diese Methode aus
 	18. Feld rechts unten: siehe oben
-	19. führe diese Methode aus
+	19. fÃ¼hre diese Methode aus
 
- *  |0|1|2|3|4| --> wenn die aktuelle Position auf 5 befindet, beträgt 
-    |5| | | | |	    die Seitenlänge ebenfalls 5. 5 geteilt durch 5 
-    | | | | | |     ergibt 1 Rest 0 => Bedingung nicht erfüllt...
+ *  |0|1|2|3|4| --> wenn die aktuelle Position auf 5 befindet, betrÃ¤gt 
+    |5| | | | |	    die SeitenlÃ¤nge ebenfalls 5. 5 geteilt durch 5 
+    | | | | | |     ergibt 1 Rest 0 => Bedingung nicht erfÃ¼llt...
  ** | | | | |a|
     |b|c|d|e|f| --> die aktuelle Position befindet sich auf a und die
-		    Seitenlänge beträgt 5. a + 1 = Position b (Wert
+		    SeitenlÃ¤nge betrÃ¤gt 5. a + 1 = Position b (Wert
 		    25), 25 geteilt durch 5 ergibt 5 Rest 0
-		    => Bedingung nicht erfüllt...
+		    => Bedingung nicht erfÃ¼llt...
 
 --> Spielfeld generieren
     die wahrscheinlich schwierigste Methode in diesem Spiel. Die 
-    Zeilen- und Spaltenbezeichnungen müssen variabel sein, sobald sie 
+    Zeilen- und Spaltenbezeichnungen mÃ¼ssen variabel sein, sobald sie 
     zwei Stellen hat muss ein Leerschlag weniger dargestellt werden, 
     nach der letzen Spalte muss ein Abtrennungszeichen gesetz werden, 
     usw...
@@ -328,11 +328,11 @@ Was ziemlich tricky war...
 	21. System.out.println();
 	22. System.out.println();}}
 
-	01. wenn die öffentliche Methode zeichneSpielfeld aufgerufen 
+	01. wenn die Ã¶ffentliche Methode zeichneSpielfeld aufgerufen 
 	    wird, passiert folgendes:
 	02. die Zahl 1 wird in die Variable "zeile" geschrieben
-	03. es folgen zwei Zeilenumbrüche
-	05. die erste Zeile hat drei Leerschläge um die 
+	03. es folgen zwei ZeilenumbrÃ¼che
+	05. die erste Zeile hat drei LeerschlÃ¤ge um die 
 	    Splaltenbezeichnungen richtig zu Positionieren
 
   ***1 2 3 4 5 
@@ -342,32 +342,32 @@ Was ziemlich tricky war...
   4 | | | | | |
   5 | | | | | |
 
-	06. eine for-Schleife, beginnend mit 1 läuft so lange, wie 
-	    i kleiner oder gleich gross ist wie die Seitenlänge
-	07. mit den entsprechenen Abständen werden die Spaltennummern 
+	06. eine for-Schleife, beginnend mit 1 lÃ¤uft so lange, wie 
+	    i kleiner oder gleich gross ist wie die SeitenlÃ¤nge
+	07. mit den entsprechenen AbstÃ¤nden werden die Spaltennummern 
 	    ausgegeben
-	08. auf der nächsten Zeile
+	08. auf der nÃ¤chsten Zeile
 	09. werden die Zeilennummern und danach ein Leerschlag 
 	    ausgegeben.
 	10. dann wird das Spielfeld gezeichnet: eine for-Schleife 
-	    durchläuft jede Zelle des Arrays und
+	    durchlÃ¤uft jede Zelle des Arrays und
 	11. in jedes Feld das sich rechts am Rand befindet einen "|".
 	12. 
 	13. dabei wird bis zur vorletzen Zelle 
-	14. die Zeilennummer erhöht.
+	14. die Zeilennummer erhÃ¶ht.
 	15. und solange die Zeilennummer weniger als zwei Stellen 
-	    beträgt, wird noch ein Leerschlag hinzugefügt.
+	    betrÃ¤gt, wird noch ein Leerschlag hinzugefÃ¼gt.
 	17. bei der zehnten Zeile 
 	18. wird kein Leerschlag mehr geschrieben
 	20. jetzt werden die restlichen Felder gezeichnet
-	21. es folgen zwei Zeilenumbrüche 
+	21. es folgen zwei ZeilenumbrÃ¼che 
 
 --> Spielfeld vor dem ersten Klick anzeigen
-    Ein im nachhinein "kleines" Problem war für mich, dass der User beim
-    ersten Klick sehen muss wo er hin klickt. In einer frühen Version
-    des Spiels musste der Spieler den ersten Klick blind tätigen, also
+    Ein im nachhinein "kleines" Problem war fÃ¼r mich, dass der User beim
+    ersten Klick sehen muss wo er hin klickt. In einer frÃ¼hen Version
+    des Spiels musste der Spieler den ersten Klick blind tÃ¤tigen, also
     ohne Konsole. 
     Durch einen Methodenaufruf im Konstruktor wird nun gleich nach der 
-    Eingabe von Grösse und Minen ein Spielfeld gezeichnet.
+    Eingabe von GrÃ¶sse und Minen ein Spielfeld gezeichnet.
 
 ------------------------------------------------------------------------
